@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Create Database",
+            "skipFiles": [
+              "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/src/utilities/create-database.ts",
+            "outFiles": [
+              "${workspaceFolder}/dist/**/*.js"
+            ],
+            "runtimeArgs": [
+              "-r",
+              "ts-node/register"
+            ],
+            "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/ts-node"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Delete Database",
+            "skipFiles": [
+              "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/src/utilities/delete-database.ts",
+            "outFiles": [
+              "${workspaceFolder}/dist/**/*.js"
+            ],
+            "runtimeArgs": [
+              "-r",
+              "ts-node/register"
+            ],
+            "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/ts-node"
+        },
+    ]
+}

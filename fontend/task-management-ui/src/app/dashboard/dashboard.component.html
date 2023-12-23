@@ -1,0 +1,31 @@
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-12 d-flex justify-content-between align-items-center">
+            <h1>Your Tasks</h1>
+            <button class="btn btn-success">+</button>
+        </div>
+    
+        <div class="col-12 mt-3">
+            <div class="card mt-3" *ngFor="let task of tasks">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h5 class="card-title">{{task.title}}</h5>
+                        <span class="badge badge-primary">{{task.status}}</span>
+                    </div>
+                    <p class="card-text">{{task.description}}</p>
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <p class="card-text"><small class="text-muted">Assigned by: {{task.assignedBy}}</small></p>
+                            <p class="card-text"><small class="text-muted">Assigned to: {{task.assignedTo}}</small></p>
+                        </div>
+                        <div>
+                            <button class="btn btn-danger mr-2">Delete</button>
+                            <button class="btn btn-primary">Update</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
