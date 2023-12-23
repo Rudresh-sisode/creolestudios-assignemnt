@@ -88,9 +88,21 @@ The frontend also has several development dependencies, including Angular develo
 
 To start the project, you need to start both the backend and the frontend.
 
+### GitHub Copilot
+Sure, here's how you can update the selected section of your README.md file to include details about the database create and delete scripts:
+
+### Database Scripts
+
+In the src/utilities directory, there are scripts for creating and deleting the database. These scripts can be run from the debug console in Visual Studio Code.
+
+To run these scripts, open the debug console, select the script you want to run from the dropdown menu, and click the 'Start Debugging' button or press F5.
+
+Please ensure that you have correctly set up your launch.json file in the .vscode directory to include configurations for these scripts.
+
 ### Starting the Backend
 
 Navigate to the backend directory and run the following command:
 
 ```bash
 npm run start
+
