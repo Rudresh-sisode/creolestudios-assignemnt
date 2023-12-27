@@ -112,3 +112,12 @@ npm run start
 Following is the backend file video link, you can watch it simply by downloading it.
 [Backend Video Link](https://drive.google.com/file/d/1BA86UZ4vp7Nko-wobh7F3s9zIgO5Imt_/view?usp=sharing)
 
+### Angular Frontend Recording
+
+Here is the Angular frontend video link, you can watch it simply by downloading it.
+[Angular Frontend Video Link](https://drive.google.com/file/d/1lnFkCv_TyecrQSuzjSolWISB72Xq98SY/view?usp=sharing)
+
+### On Browser Recording
+
+Here is the on browser video link, you can watch it simply by downloading it.
+[On Browser Video Link](https://drive.google.com/file/d/1rAiksXZLZ9FjDlP_jN1VRkbg9WLN2Bqj/view?usp=sharing)
