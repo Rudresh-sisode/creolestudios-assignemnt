@@ -103,6 +103,12 @@ Please ensure that you have correctly set up your launch.json file in the .vscod
 
 Navigate to the backend directory and run the following command:
 
-```bash
+```bash```
 npm run start
+
+
+### Video Recording
+
+Following is the backend file video link, you can watch it simply by downloading it.
+[Backend Video Link](https://drive.google.com/file/d/1BA86UZ4vp7Nko-wobh7F3s9zIgO5Imt_/view?usp=sharing)
 
